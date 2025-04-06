@@ -53,16 +53,13 @@
         "web-vitals": "^4.2.4"
     },
     "scripts": {
-        "start": "set HTTPS=false && react-scripts start",
-        "dev": "node ./scripts/customerConfigScripts.js build --dev && cp .htaccess ./build/",
-        "build": "node ./scripts/customerConfigScripts.js build && cp .htaccess ./build/",
-        "debug": "node ./scripts/customerConfigScripts.js build --debug && cp .htaccess ./build/",
-        "console": "node ./scripts/customerConfigScripts.js build --console && cp .htaccess ./build/",
-        "newdev": "node ./scripts/customerConfigScripts.js build --newdev && cp .htaccess ./build/",
-        "test": "jest --colors --coverage",
-        "coverage": "npm test --coverage",
-        "eject": "react-scripts eject"
-    },
+    "start": "react-scripts start",
+    "build": "react-scripts build", 
+    "dev": "react-scripts start",
+    "test": "jest --colors --coverage",
+    "coverage": "npm test --coverage",
+    "eject": "react-scripts eject"
+  },
     "eslintConfig": {
         "extends": [
             "react-app",
