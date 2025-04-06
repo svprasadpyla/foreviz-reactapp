@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="10" viewBox="0 0 12 10">
+  <g id="sort-az" transform="translate(-6 -7)">
+    <path id="Path_1235" data-name="Path 1235" d="M6,8.178A1.1,1.1,0,0,1,7,7H17a1.1,1.1,0,0,1,1,1.178,1.1,1.1,0,0,1-1,1.178H7A1.1,1.1,0,0,1,6,8.178Z" transform="translate(0 0)" fill="#e4e4e4"/>
+    <path id="Path_1236" data-name="Path 1236" d="M8,12.178A1.07,1.07,0,0,1,8.911,11h5.467a1.07,1.07,0,0,1,.911,1.178,1.07,1.07,0,0,1-.911,1.178H8.911A1.07,1.07,0,0,1,8,12.178Z" transform="translate(0.356 -0.178)" fill="#e4e4e4"/>
+    <path id="Path_1237" data-name="Path 1237" d="M11.178,15a1.178,1.178,0,1,0,0,2.356h2.356a1.178,1.178,0,1,0,0-2.356Z" transform="translate(-0.356 -0.356)" fill="#e4e4e4"/>
+  </g>
+</svg>

@@ -1,0 +1,82 @@
+  /* ##############MultiSelection close button.css############## */
+
+  .TimeDateRange:hover{
+    box-shadow: none!important;
+  }
+  .TimesheetPdf-Btn{
+    width: 100%;
+    background: #1d428a;
+    padding: 5px;
+    color: #fff;
+    font-size: 18px;
+  }	
+  
+  
+  /* ##############CustomDateRangePicker.css############## */
+  .custom-date-range-picker .DateRangePickerInput {
+    font-size: 14px;
+  }
+  
+  .custom-date-range-picker .DateInput_input {
+    font-size: 14px;
+  }
+  
+  .custom-date-range-picker .CalendarMonth_caption {
+    font-size: 14px; /* Increase the font size */
+  }
+  
+  .custom-date-range-picker .DayPicker_weekHeader {
+    font-size: 14px; /* Increase the font size */
+  }
+  
+  .custom-date-range-picker .CalendarDay {
+    font-size: 14px;
+  }
+  
+  .custom-date-range-picker .CalendarDay__default {
+    font-size: 14px;
+  }
+  
+  .custom-date-range-picker .CalendarDay__selected {
+    font-size: 14px;
+    background: grey;
+    border: 1px solid grey;
+  }
+  
+  .custom-date-range-picker .CalendarDay__selected_span {
+    font-size: 14px;
+    background: lightgrey;
+    border: 1px solid lightgrey;
+  }
+  
+  .custom-date-range-picker .CalendarDay__hovered_span {
+    font-size: 14px;
+    background: lightgrey;
+    border: 1px solid lightgrey;
+  }
+  
+  
+  .custom-dropdown .dropdown-menu {
+    font-size: 14px;
+    width: auto; 
+    text-align: center;
+  }
+  
+  .custom-dropdown .dropdown-item {
+    padding: 10px 20px;
+  }
+  .custom-dropdown .dropdown-toggle {
+    font-size: 14px; 
+    padding: 8px 10px;
+    font-weight: 500;
+    color: #000!important;
+    text-align: center;
+    background: #fff !important;
+  }
+  .custom-date-range-picker .DateInput{
+    width: 110px!important;
+  }
+  .custom-date-range-picker .DateInput_fang{
+    top: 20px!important;
+    left: 0px!important;
+  }

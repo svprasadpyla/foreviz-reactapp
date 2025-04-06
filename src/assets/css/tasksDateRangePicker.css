@@ -1,0 +1,73 @@
+  /* ##############TasksDateRangePicker.css############## */
+  .task-date-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .task-date-selection {
+      display: flex;
+      align-items: center;
+      margin-right: 15px;
+  }
+  
+  .custom-Tasks-date-range-picker {
+      display: flex;
+      align-items: center;
+      margin-right: 40px!important;
+  }
+  
+  .custom-Tasks-date-range-picker .DateRangePicker {
+      display: flex;
+      flex-direction: row;
+  }
+  
+  .custom-Tasks-date-range-picker .DateRangePickerInput {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+  }
+
+.custom-Tasks-date-range-picker .DateInput {
+    width: 120px; /* Adjust as needed */
+    margin-right: 10px; /* Adjust as needed */
+}
+
+.custom-Tasks-date-range-picker .DateRangePickerInput__withBorder {
+    border: none;
+}
+
+.custom-Tasks-date-range-picker .DateRangePicker_picker {
+    display: flex;
+    flex-direction: row;
+}
+
+.custom-dropdown {
+    margin-right: 10px;
+}
+
+.clear-button {
+    margin-left: 10px;
+}
+
+.task-date-selection #startDate{
+  display: none;
+}
+.task-date-selection #endDate,.task-date-selection .DateRangePickerInput_arrow_svg{
+  display: none;
+}
+.DateRangePicker_picker{
+  top: 30px!important;
+}
+.trends-dropdown-text .dropdown-toggle::after{
+  display: none!important;
+}
+.trends-dropdown-text .btn-secondary{
+  background-color: #fff!important;
+  color: #909090 !important;
+  font-weight: 500;
+  font-size:14px !important;
+}
+.self-team-productivity .DateInput_fang
+{
+  top: 20px!important;
+}

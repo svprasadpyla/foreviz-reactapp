@@ -1,0 +1,13 @@
+@import 'assets/css/bootstrap/css/bootstrap.css';
+@import 'assets/css/font-awesome/css/all.css';
+@import 'assets/css/animate-css/vivify.min.css';
+@import 'assets/css/site.min.css';
+@import 'assets/css/custom.css';
+@import 'assets/css/dark.css';
+@import 'assets/css/parsley.css';
+@import 'assets/css/mediaquery.css';
+@import 'assets/css/emailShareDateRangePicker.css';
+@import 'assets/css/tasksDateRangePicker.css';
+
+@import "components/Authentication/Login.css";
+@import "components/Dashboard/Dashboard.css";

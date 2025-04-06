@@ -1,0 +1,144 @@
+@font-face {
+	font-family: 'Gilroy-Bold';
+	src: url('../src/assets/fonts/gilroy/Gilroy-Bold.ttf') format("truetype");
+
+  }
+body {
+  margin: 0;
+}
+
+
+/* This start here dashboard styles */
+
+
+.lightgray1
+{
+	background:#fdfdfd;
+	
+}
+.Borderradius0
+{
+	 border-radius:7px!important;
+}
+.smallradius
+{
+	border-radius:5px!important;
+}
+.leftradius
+{
+	 border-radius:7px 0px 0px 7px!important;
+}
+.w27
+{
+	width:27px !important;
+	height:27px;
+}
+.w26
+{width:30px;
+	height:30px;
+	}
+
+.borderlc
+{
+	border:solid 1px #a7a6a62e !important
+}
+
+.light_version .table.table-custom thead th {
+    background: #EBEBEB!important;
+    border: #fff 0.1px solid!important;
+}
+.bg-darkblue
+{
+	background:#102133;
+}
+.bg-lightgray2
+{
+	    background: #EBEBEB!important;
+}
+
+.b_radius20
+{
+	border-radius: 20px!important;
+}
+
+.w-10
+{
+	width:18px;
+}
+
+.shadow {
+    box-shadow: 0 .2px 7px rgba(0,0,0,.15)!important;
+}
+
+.position-absolute
+{
+	bottom:1px;
+}
+
+.Borderradius
+{
+    border-radius:10px!important;
+}
+
+.fontsmall
+{
+    font-size: 11px!important;
+    font-weight: 200;
+}
+
+.dd-list
+{
+	line-height: 14px;
+	font-size: 14px;
+}
+.font10
+{
+	font-size: 10px;
+}
+.selftable td
+{
+	border: 0px solid #fff!important;
+}
+
+.selftable th
+{
+	border: 2px solid #fff!important;
+}
+.TeamTable label
+{
+	margin-bottom: 0px;
+	font-weight: 600;
+	color: #000;
+}
+.TeamTable tr td
+{
+	color: #000;
+}
+.ProvideText
+{
+	font-size: 18px;	
+}
+.WelcomeText
+{
+	font-size: 26px;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1366px) {
+	.WorkspaceText {
+	font-size: 16px;
+	font-weight: 600;
+	}
+	.ProvideText
+	{
+		font-size: 16px!important;	
+	}
+
+  }
+  @media only screen and (min-width: 200px) and (max-width: 990px) {
+  .loginbg
+  {
+	  display: none;
+  }
+}
+
+

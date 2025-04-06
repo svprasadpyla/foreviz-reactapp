@@ -1,0 +1,791 @@
+@media screen and (min-width: 890px) and (max-width: 1377px) {
+  .chatt_top {
+    display: table !important;
+    justify-content: center !important;
+  }
+
+  .chatt_top .w35 {
+    width: 30px !important;
+    margin-top: 6px;
+  }
+
+  user-btnactive {
+    width: 25px !important;
+    height: 25px !important;
+    padding: 5px 6px !important;
+    font-size: 12px !important;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  .foote-atteched .input-group {
+    padding: 12px !important;
+  }
+}
+
+/* ##################### collaboration sidebar and chatbox ################### */
+
+@media screen and (min-width: 320px) and (max-width: 770px) {
+  .collabrotaion-sidebar-scroll .scrollbox {
+    height: calc(25vh - 7vh) !important;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1400px) {
+  .collabrotaion-sidebar-scroll .scrollbox {
+    height: calc(100vh - 75vh) !important;
+  }
+}
+
+/* ############### Sidebar and Header section ############### */
+@media screen and (min-width: 320px) and (max-width: 770px) {
+  .opsdashboar-year-selection {
+    margin-right: 0px !important;
+  }
+
+  #ops-barchart-bar-align .apexcharts-menu-icon {
+    top: 0px !important;
+    right: 0px !important;
+  }
+
+  .opsbarchart-cardbody {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+}
+
+/* ############### Sidebar and Header section ############### */
+@media screen and (min-width: 450px) and (max-width: 625px) {
+  .send-message {
+    right: 20px;
+    bottom: 20px;
+  }
+
+  .foote-atteched .ck-editor {
+    margin-top: 0px !important;
+  }
+
+  .foote-atteched {
+    margin-top: 47px !important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #main-content {
+    width: 100% !important;
+  }
+
+  .light_version .top-navbar {
+    width: 100% !important;
+  }
+}
+
+/* ############### Timesheet ############# */
+
+@media only screen and (max-width: 1400px) and (min-width: 763px) {
+  .fc .fc-daygrid-day-number {
+    position: relative;
+    z-index: 4;
+    padding: 4px;
+    font-size: 18px;
+    top: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+  }
+
+  .w12 {
+    width: 10px;
+  }
+
+  .fc .fc-daygrid-day-events {
+    margin-top: 0px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .calendar_Self,
+  .Details_Self,
+  .Details_Team,
+  .calendar_Team {
+    margin-bottom: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 762px) and (min-width: 300px) {
+  .fc .fc-daygrid-day-number {
+    position: relative;
+    z-index: 4;
+    padding: 4px;
+    font-size: 18px;
+    top: 6px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .fc .fc-scrollgrid-liquid {
+    height: 100vh !important;
+  }
+
+  .w12 {
+    width: 10px;
+  }
+
+  .fc .fc-daygrid-day-events {
+    margin-top: 0px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .calendar_Self,
+  .Details_Team,
+  .calendar_Team {
+    height: 100vh !important;
+    overflow-y: hidden;
+  }
+
+  .fc .fc-daygrid-body-unbalanced .fc-daygrid-day-events {
+    position: relative;
+    min-height: 4em !important;
+  }
+
+  .calendar_Self:hover,
+  .calendar_Self:focus {
+    overflow: auto;
+    height: calc(100vh - 90px) !important;
+  }
+
+  .calendar_Self::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  .calendar_Self::-webkit-scrollbar-thumb {
+    overflow: visible;
+    border-radius: 4px;
+    background-color: #7269ef;
+  }
+
+  .calendar_Self::-webkit-scrollbar-track {
+    --webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3) !important;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+  }
+
+  .channel-setting-collaboration {
+    display: block !important;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .search-channels-setting {
+    margin-top: 15px;
+  }
+}
+
+.channel-setting-collaboration {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* header alignments */
+
+@media only screen and (min-width: 1025px) {
+  .text-alignment {
+    margin-left: 15px !important;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .header-profile-menu {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .side-menu-list {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .user-img-hide-show img {
+    display: block;
+  }
+
+  .user-name-hide-show {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  .user-img-hide-show img {
+    display: none;
+  }
+
+  .user-name-hide-show {
+    display: block;
+  }
+}
+
+/* ############ profile icons############## */
+
+@media screen and (max-width: 768px) {
+  #main-content {
+    margin-top: 80px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 1200px) {
+  .menu-toggle-button {
+    cursor: pointer !important;
+    color: #888 !important;
+    position: absolute;
+    right: -13px;
+    top: 95%;
+    z-index: 13;
+    display: none;
+  }
+
+  .mini_sidebar_on .closeIcon-mobileview {
+    position: absolute;
+    font-size: 15px;
+    height: 24px !important;
+    width: 24px !important;
+    border-radius: 24px !important;
+    right: -13px;
+    top: 12px;
+    z-index: 13;
+    all: unset;
+  }
+
+  .inr-menuicons-close {
+    position: absolute;
+    top: 20px;
+    right: -8px;
+    font-size: 16px;
+    border: 1px solid #dcdcdc !important;
+    background-color: #f5f5f5 !important;
+    border-radius: 50%;
+  }
+
+  .offcanvas-active #left-sidebar .btn-toggle-offcanvas {
+    display: block !important;
+    background: rgba(255, 255, 255, 0.05);
+    color: #ffa117;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 2560px) {
+  .offcanvas-active #left-sidebar .btn-toggle-offcanvas {
+    display: none !important;
+    background: rgba(255, 255, 255, 0.05);
+    color: #ffa117;
+  }
+}
+
+@media screen and (min-width: 889px) and (max-width: 1250px) {
+  .calendar-col {
+    padding-left: 5px;
+    top: 10px;
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 1251px) and (max-width: 1369px) {
+  .calendar-col {
+    padding-left: 5px;
+    top: 0px;
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 1370px) and (max-width: 1439px) {
+  .calendar-col {
+    padding-left: 5px;
+    top: 5px;
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1920px) {
+  .calendar-col {
+    padding-left: 5px;
+    top: 0px;
+    margin-top: -25px;
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 1921px) and (max-width: 2560px) {
+  .calendar-col {
+    padding-left: 5px;
+    top: 45px;
+    position: relative;
+  }
+
+  .Max-width1 {
+    max-width: 55% !important;
+    width: 100%;
+    margin: 0 auto;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+
+  .Max-width2 {
+    max-width: 50%;
+    width: 100%;
+    margin: 0 auto;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+}
+
+/* ############ Mini-sidebar ########### */
+@media screen and (max-width: 1024px) {
+  .mini_sidebar .top-navbar {
+    width: 100% !important;
+  }
+
+  .mini_sidebar #main-content {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 2850px) {
+  .user-account .dropdown .dropdown-menu {
+    transform: translate(0px, 35px) !important;
+  }
+}
+
+.geek-maindiv {
+  position: relative;
+}
+
+.geeks::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: 0;
+  height: 0;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  z-index: 0;
+}
+
+.geeks:hover::before {
+  animation: animate 1s linear forwards;
+}
+
+/* ########## Input box ############*/
+@media screen and (min-width: 761px) and (max-width: 1366px) {
+  .task-selectbox-header {
+    display: flex !important;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 515px) {
+
+  .task-selectbox-header,
+  .Task-gridlist-header {
+    display: block !important;
+    margin-bottom: 0px !important;
+  }
+
+  .taskheader-dropdow {
+    display: flex;
+    margin-top: 10px;
+  }
+
+  .gridelist-task-tool {
+    display: flex !important;
+    margin-top: 10px !important;
+  }
+}
+
+/* ############### Task page full width ############### */
+@media screen and (min-width: 320px) and (max-width: 770px) {
+  .task-selectbox-header {
+    display: block !important;
+  }
+
+  .pricing-div .subpricing-division {
+    display: block !important;
+  }
+
+  .w350 {
+    width: 100% !important;
+  }
+
+  .task-gride-timeshow {
+    justify-content: end;
+  }
+
+  .grid-view-content .container-fluid .overflow-auto {
+    overflow: auto !important;
+  }
+
+  .Gridelist-overflow {
+    width: 100% !important;
+  }
+
+  .subpricing-division {
+    width: 100% !important;
+  }
+
+  .Gridelist-view-right {
+    margin-top: 5px;
+    margin-right: 6px;
+  }
+
+  .collabroration-chatting-header {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+/* ################## Select box styles end ################# */
+
+/* ########### table header fixed ############## */
+.table-container {
+  overflow: scroll;
+  height: calc(100vh - 184px);
+}
+
+.Session-table {
+  overflow: hidden;
+  height: calc(100vh - 250px);
+}
+
+.Session-table .table th,
+.table-container .table th {
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 4;
+}
+
+.Session-table:hover,
+.Session-table:focus,
+.table-container:hover,
+.table-container:focus {
+  overflow: auto;
+}
+
+.Session-table::-webkit-scrollbar,
+.table-container::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.Session-table::-webkit-scrollbar-thumb,
+.table-container::-webkit-scrollbar-thumb {
+  overflow: visible;
+  border-radius: 4px;
+  background-color: #7269ef;
+}
+
+.Session-table::-webkit-scrollbar-track,
+.table-container::-webkit-scrollbar-track {
+  --webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3) !important;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+
+/* ############### table header fixed close ############### */
+
+/* ################## Gantt Modal Open ############ */
+.Gantt-Dropdown {
+  max-width: 280px;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #dcdcdc;
+  text-align: center;
+  padding: 16px;
+  border-radius: 10px;
+  position: absolute;
+  top: 85px;
+  left: 16px;
+  right: 0px;
+}
+
+.Gantt-Dropdown-bk {
+  background-color: rgb(255, 255, 255, 0);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+  z-index: 3;
+}
+
+#shift-closed-alert .Gantt-Dropdown-bk {
+  position: relative;
+}
+
+/*################ spiner ################# */
+.main-spinner-div {
+  position: fixed;
+  z-index: 10000;
+  background-color: #0000008c;
+  height: 100%;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+}
+
+.vertical-align-middle {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+}
+
+@media screen and (min-width: 523px) and (max-width: 602px) {
+  .mangerrequest_selectbox .select-box-small {
+    min-width: 90px !important;
+    max-width: 112px !important;
+  }
+}
+
+@media screen and (min-width: 603px) and (max-width: 708px) {
+  .mangerrequest_selectbox .select-box-small {
+    min-width: 111px !important;
+    max-width: 180px !important;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 900px) {
+  .Request_ManagerTool {
+    display: block;
+    justify-content: start;
+    width: 100%;
+  }
+
+  .team-margin {
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 905px) {
+  .manager-settings-layout {
+    height: calc(100vh - 50px);
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 1200px) {
+  #user-productivity-bar-align .apexcharts-toolbar {
+    right: 8rem !important;
+  }
+
+  .download_userchart {
+    right: -10px;
+  }
+
+  #tool_Productscroll_width .apexcharts-toolbar {
+    right: 5rem !important;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 1109px) {
+
+  #manager-trands-team-productivity-bar-align .apexcharts-toolbar,
+  #trand-top-ten-productivity-bar-align .apexcharts-toolbar,
+  #trand-app-productivity-bar-align .apexcharts-toolbar {
+    right: 6rem !important;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 760px) {
+  .trends-dropdown-text .btn-secondary {
+    margin-right: 9rem !important;
+  }
+}
+
+@media screen and (min-width: 760px) and (max-width: 1109px) {
+
+  #manager-trands-team-productivity-bar-align .apexcharts-toolbar,
+  #trand-top-ten-productivity-bar-align .apexcharts-toolbar,
+  #trand-app-productivity-bar-align .apexcharts-toolbar {
+    right: 7rem !important;
+  }
+}
+
+@media screen and (min-width: 579px) and (max-width: 928px) {
+  .setting-layout {
+    height: calc(100vh - 62px);
+  }
+}
+
+@media screen and (min-width: 553px) and (max-width: 1260px) {
+  .create_img_Div {
+    margin-top: -40px;
+  }
+
+  .create_imagebg {
+    max-width: 110px;
+    min-width: 90px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .selfUser-productivity-download-icon .apexcharts-toolbar {
+    transform: translateX(60px) !important;
+    top: -43px !important;
+    height: 25px;
+    width: 25px;
+  }
+
+  .selfTool-productivity-download-icon .apexcharts-toolbar {
+    transform: translateX(60px) !important;
+    top: -44px !important;
+    height: 25px;
+    width: 25px;
+  }
+
+  .custom-dropdown .dropdown-toggle {
+    font-size: 8px !important;
+  }
+
+  #user-productivity-bar-align .apexcharts-toolbar {
+    top: -108px !important;
+    height: 25px;
+    width: 25px;
+  }
+
+  .download_userchart {
+    bottom: 83px;
+    width: 25px;
+    height: 25px;
+  }
+
+  #user-productivity-bar-align .custom-dropdown {
+    transform: translateX(50px);
+  }
+
+  #tool_Productscroll_width .apexcharts-toolbar {
+    top: -108px !important;
+    height: 25px;
+    width: 25px;
+  }
+
+  #tool_Productscroll_width .custom-dropdown {
+    transform: translateX(30px);
+  }
+
+
+  #org-barchart-bar-align .apexcharts-menu {
+    top: 25px !important;
+  }
+
+  .trends-dropdown-text .btn-secondary {
+    font-size: 8px !important;
+    margin-right: 3rem !important;
+  }
+
+  #manager-trands-team-productivity-bar-align .trends-dropdown-text .btn-secondary {
+    font-size: 8px !important;
+  }
+
+  #trand-top-ten-productivity-bar-align .trends-dropdown-text .btn-secondary {
+    font-size: 8px !important;
+  }
+
+  #trand-app-productivity-bar-align .trends-dropdown-text .btn-secondary {
+    font-size: 8px !important;
+  }
+
+  #main-content .trends-dropdown-text .btn-secondary {
+    font-size: 8px !important;
+  }
+
+  #manager-trands-team-productivity-bar-align .apexcharts-toolbar,
+  #trand-top-ten-productivity-bar-align .apexcharts-toolbar,
+  #trand-app-productivity-bar-align .apexcharts-toolbar.apexcharts-toolbar {
+    top: -26px !important;
+    height: 25px;
+    width: 25px;
+    transform: translateX(70px);
+  }
+
+  #manager-trands-team-productivity-bar-align .apexcharts-toolbar {
+    top: -26px !important;
+    height: 25px;
+    width: 25px;
+    transform: translateX(0px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Recordsession-font {
+    font-size: 10px;
+    margin-top: 5px;
+  }
+
+  .No_workspace {
+    font-size: 14px;
+  }
+
+  .Click_workspace {
+    font-size: 12px;
+  }
+
+  .form-control {
+    font-size: 13px !important;
+  }
+
+  .team-resource {
+    transform: translateX(-170px);
+  }
+
+  .grid-list-view-align .card .planned_task {
+    height: calc(100vh - 199px);
+  }
+
+  .Nodata-task {
+    position: fixed;
+    left: 50%;
+    top: 70%;
+  }
+
+  .Usersby-tools {
+    font-size: 14px !important;
+  }
+
+  .fc .fc-button {
+    font-size: 12px !important;
+  }
+
+  .team-calender-align .fc-toolbar-chunk h2 {
+    font-size: 13px;
+  }
+
+  .mangerrequest_selectbox .select-box-small {
+    min-width: 40px;
+    max-width: 80px;
+  }
+
+  .Project_Create {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nodata_selftimg {
+    width: 70px;
+    opacity: 0.5;
+  }
+
+  /* team-pagenation */
+  .manager-settings-layout {
+    height: calc(100vh - 3vh);
+  }
+
+  .multi-pagenation {
+    font-size: 8px;
+    margin-top: 40px !important;
+  }
+}
